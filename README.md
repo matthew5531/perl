@@ -1,6 +1,7 @@
 You can convert unix epoch time to time in sqltrace of Oracle Database.
 
 $ TZ='Asia/Karachi'; export TZ
+
 $ perl sqltrace_tim_conv.pl test.trc
 
 PARSING IN CURSOR #111 len=138 dep=0 uid=49 oct=3 lid=49 tim=2016-12-15 06:35:18.263
